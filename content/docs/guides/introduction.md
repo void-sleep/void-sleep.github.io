@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: "卫星实验室，一个专注于技术创新的开源组织"
+description: "Void Sleep，一个专注于技术创新的开源组织"
 summary: ""
 date: 2023-09-07T16:04:48+02:00
 lastmod: 2023-09-07T16:04:48+02:00
@@ -13,15 +13,15 @@ menu:
 weight: 10
 toc: true
 seo:
-  title: "卫星实验室，一个专注于技术创新的开源组织"
-  description: "卫星实验室，一个专注于技术创新的开源组织，在这里将分享我们的平台工程实践经验，介绍如何以技术驱动业务长期发展和高速增长"
+  title: "Void Sleep，一个专注于技术创新的开源组织"
+  description: "Void Sleep，一个专注于技术创新的开源组织，在这里将分享我们的平台工程实践经验，介绍如何以技术驱动业务长期发展和高速增长"
   canonical: ""
   noindex: false
 ---
 
-卫星实验室，一个专注于技术创新的开源组织。
+Void Sleep，一个专注于技术创新的开源组织。
 
-此项目为卫星实验室主页 [xlabs.club][] 的源码，在这里将分享我们的平台工程实践经验，介绍如何以技术驱动业务长期发展和高速增长。
+此项目为Void Sleep主页 [xlabs.club][] 的源码，在这里将分享我们的平台工程实践经验，介绍如何以技术驱动业务长期发展和高速增长。
 
 欢迎提交 PR 进行开源共建。
 
@@ -33,7 +33,7 @@ seo:
 - awesome-x-ops：一些关于 AIOps、DataOps、DevOps、GitOps、FinOps 的优秀软件、博客、配套工具。
 - xlabs-ops：一些 IaC 运维脚本和通用模板，如 Argo Workflows 模板仓库，是对官方 Examples 的组合、扩展。
 - xlabs-developer-platform：一个基于 Backstage 自建的开发者平台。
-- backstage-plugins：卫星实验室的开源 backstage plugins，欢迎提交 PR。
+- backstage-plugins：Void Sleep的开源 backstage plugins，欢迎提交 PR。
 
 ## License
 

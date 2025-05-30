@@ -10,7 +10,7 @@ mainSections = ["docs"]
 alertText = '<a class="alert-link stretched-link fw-normal" href="/blog/doks-1-3/">Doks 1.3 is out!</a>'
 
 # Footer
-footer = "Give Me a <a class=\"text-muted\" href=\"https://github.com/xlabs-club/\">Star</a>"
+footer = "Give Me a <a class=\"text-muted\" href=\"https://github.com/void-sleep/\">Star</a>"
 
 [social]
   twitter = "xlabs-club"
@@ -18,7 +18,7 @@ footer = "Give Me a <a class=\"text-muted\" href=\"https://github.com/xlabs-club
 # Add-ons
 [add_ons]
   carbonAds = false
-  docSearch = true
+  docSearch = false
   plausibleDomain = "xlabs.club" # "example.com" (default)
   keila = false
 
@@ -87,7 +87,7 @@ footer = "Give Me a <a class=\"text-muted\" href=\"https://github.com/xlabs-club
   editPage = true
   lastMod = true
   repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
-  docsRepo = "https://github.com/xlabs-club/xlabs-club.github.io"
+  docsRepo = "https://github.com/void-sleep/xlabs-club.github.io"
   docsRepoBranch = "main" # main (default), master, or <branch name>
   docsRepoSubPath = "" # "" (none, default) or <sub path>
 
@@ -142,8 +142,8 @@ footer = "Give Me a <a class=\"text-muted\" href=\"https://github.com/xlabs-club
   [seo.schemas]
     type = "Organization" # Organization (default) or Person
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
-    name = "XLabs Club 卫星实验室" # Name of Organization or Person
-    sameAs = ["https://github.com/xlabs-club/xlabs-club.github.io"]
+    name = "XLabs Club Void Sleep" # Name of Organization or Person
+    sameAs = ["https://github.com/void-sleep/xlabs-club.github.io"]
     images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections
     newsArticle = [] # NewsArticle sections

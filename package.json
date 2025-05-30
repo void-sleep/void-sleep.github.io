@@ -1,12 +1,12 @@
 {
-  "name": "xlabs-club",
+  "name": "void-sleep",
   "version": "1.8.0",
-  "description": "This is the source of xlabs.club",
-  "author": "xlabs-club",
+  "description": "This is the source of voidsleep.com",
+  "author": "void-sleep",
   "license": "CC BY-NC 4.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xlabs-club/xlabs-club.github.io.git"
+    "url": "https://github.com/void-sleep/void-sleep.github.io.git"
   },
   "scripts": {
     "create": "exec-bin node_modules/.bin/hugo/hugo new",
@@ -24,12 +24,13 @@
     "@thulite/images": "^3.3.0",
     "@thulite/inline-svg": "^1.2.0",
     "@thulite/seo": "^2.4.1",
+    "ci": "^2.3.0",
     "mermaid": "^11.3.0",
     "thulite": "^2.5.0"
   },
   "devDependencies": {
-    "hugo-installer": "^4.0.1",
     "exec-bin": "^1.0.0",
+    "hugo-installer": "^4.0.1",
     "prettier": "^3.3.3",
     "vite": "^5.4.2"
   },
