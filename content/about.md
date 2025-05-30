@@ -30,4 +30,4 @@ Void Sleep，一个专注于技术创新的开源组织，此项目为Void Sleep
 - xlabs-developer-platform：一个基于 Backstage 自建的开发者平台。
 - backstage-plugins：Void Sleep的开源 backstage plugins，欢迎提交 PR。
 
-[xlabs.club]: https://www.xlabs.club
+[xlabs.club]: https://https://www.voidsleep.com

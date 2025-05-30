@@ -39,5 +39,5 @@ Void Sleep，一个专注于技术创新的开源组织。
 
 本文档采用 [CC BY-NC 4.0][] 许可协议。
 
-[xlabs.club]: https://www.xlabs.club
+[xlabs.club]: https://https://www.voidsleep.com
 [CC BY-NC 4.0]: https://creativecommons.org/licenses/by-nc/4.0/

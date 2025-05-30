@@ -19,7 +19,7 @@ footer = "Give Me a <a class=\"text-muted\" href=\"https://github.com/void-sleep
 [add_ons]
   carbonAds = false
   docSearch = false
-  plausibleDomain = "xlabs.club" # "example.com" (default)
+  plausibleDomain = "voidsleep.com" # "example.com" (default)
   keila = false
 
 # Doks (@thulite/doks-core)
@@ -34,7 +34,7 @@ footer = "Give Me a <a class=\"text-muted\" href=\"https://github.com/void-sleep
 
   ## Button
   navBarButton = false
-  navBarButtonUrl = "https://www.xlabs.club/"
+  navBarButtonUrl = "https://https://www.voidsleep.com/"
   navBarButtonText = "Get started"
 
   # FlexSearch
