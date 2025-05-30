@@ -9,10 +9,12 @@
     "url": "https://github.com/xlabs-club/xlabs-club.github.io.git"
   },
   "scripts": {
-    "create": "hugo new",
-    "dev": "hugo server --disableFastRender --noHTTPCache",
+    "create": "exec-bin node_modules/.bin/hugo/hugo new",
+    "dev": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender --noHTTPCache",
     "format": "prettier **/** -w -c",
-    "build": "hugo --minify --gc"
+    "build": "exec-bin node_modules/.bin/hugo/hugo --minify --gc",
+    "postinfo": "exec-bin node_modules/.bin/hugo/hugo version",
+    "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo"
   },
   "dependencies": {
     "@docsearch/css": "^3.6.1",
@@ -26,8 +28,13 @@
     "thulite": "^2.5.0"
   },
   "devDependencies": {
+    "hugo-installer": "^4.0.1",
+    "exec-bin": "^1.0.0",
     "prettier": "^3.3.3",
     "vite": "^5.4.2"
+  },
+  "otherDependencies": {
+    "hugo": "0.145.0"
   },
   "engines": {
     "node": ">=20.11.0"
