@@ -1,6 +1,5 @@
 title = "Void Sleep"
 baseurl = "http://localhost:1313/"
-canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
@@ -21,7 +20,7 @@ defaultContentLanguageInSubdir = false
 copyRight = "Copyright (c) 2020-2024 XLabs Club"
 
 [build.buildStats]
-  enable = true
+  enable = false
 
 [outputs]
   home = ["HTML", "RSS", "searchIndex"]
@@ -57,9 +56,12 @@ rel  = "sitemap"
   category = "categories"
   tag = "tags"
 
+# [permalinks]
+#   blog = "/blog/:slugorfilename/"
+#   docs = "/docs/:sections[1:]/:slugorfilename/"
 [permalinks]
-  blog = "/blog/:slugorfilename/"
-  docs = "/docs/:sections[1:]/:slugorfilename/"
+  blog = "/blog/:slug/"
+  docs = "/docs/:sections[1:]/:slug/"
 
 [minify.tdewolff.html]
   keepWhitespace = false

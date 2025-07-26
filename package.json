@@ -9,35 +9,29 @@
     "url": "https://github.com/void-sleep/void-sleep.github.io.git"
   },
   "scripts": {
-    "create": "exec-bin node_modules/.bin/hugo/hugo new",
-    "dev": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender --noHTTPCache",
+    "create": "hugo new",
+    "dev": "hugo server --disableFastRender --noHTTPCache",
     "format": "prettier **/** -w -c",
-    "build": "exec-bin node_modules/.bin/hugo/hugo --minify --gc",
-    "postinfo": "exec-bin node_modules/.bin/hugo/hugo version",
-    "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo"
+    "build": "hugo --minify --gc",
+    "preview": "vite preview --outDir public"
   },
   "dependencies": {
-    "@docsearch/css": "^3.6.1",
-    "@docsearch/js": "^3.6.1",
-    "@tabler/icons": "^3.20.0",
-    "@thulite/doks-core": "^1.8.0",
-    "@thulite/images": "^3.3.0",
+    "@docsearch/css": "^3.9.0",
+    "@docsearch/js": "^3.9.0",
+    "@tabler/icons": "^3.34.1",
+    "@thulite/doks-core": "^1.8.3",
+    "@thulite/images": "^3.3.1",
     "@thulite/inline-svg": "^1.2.0",
     "@thulite/seo": "^2.4.1",
-    "ci": "^2.3.0",
-    "mermaid": "^11.3.0",
-    "thulite": "^2.5.0"
+    "thulite": "^2.6.3"
   },
   "devDependencies": {
     "exec-bin": "^1.0.0",
     "hugo-installer": "^4.0.1",
-    "prettier": "^3.3.3",
-    "vite": "^5.4.2"
-  },
-  "otherDependencies": {
-    "hugo": "0.145.0"
+    "prettier": "^3.6.2",
+    "vite": "^7.0.6"
   },
   "engines": {
-    "node": ">=20.11.0"
+    "node": ">=22.16.0"
   }
 }
