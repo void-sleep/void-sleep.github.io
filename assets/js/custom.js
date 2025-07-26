@@ -1,5 +1,5 @@
-import mermaid from 'mermaid';
+// import mermaid from 'mermaid';
 
-document.addEventListener('DOMContentLoaded', () => {
-    mermaid.initialize({ startOnLoad: true });
-});
+// document.addEventListener('DOMContentLoaded', () => {
+//     mermaid.initialize({ startOnLoad: true });
+// });

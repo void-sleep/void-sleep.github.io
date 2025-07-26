@@ -87,7 +87,7 @@ footer = "Give Me a <a class=\"text-muted\" href=\"https://github.com/void-sleep
   editPage = true
   lastMod = true
   repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
-  docsRepo = "https://github.com/void-sleep/xlabs-club.github.io"
+  docsRepo = "https://github.com/void-sleep/void-sleep.github.io"
   docsRepoBranch = "main" # main (default), master, or <branch name>
   docsRepoSubPath = "" # "" (none, default) or <sub path>
 
@@ -143,7 +143,7 @@ footer = "Give Me a <a class=\"text-muted\" href=\"https://github.com/void-sleep
     type = "Organization" # Organization (default) or Person
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
     name = "XLabs Club Void Sleep" # Name of Organization or Person
-    sameAs = ["https://github.com/void-sleep/xlabs-club.github.io"]
+    sameAs = ["https://github.com/void-sleep/void-sleep.github.io"]
     images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections
     newsArticle = [] # NewsArticle sections
